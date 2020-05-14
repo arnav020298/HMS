@@ -17,9 +17,6 @@ import javax.crypto.CipherInputStream;
 import javax.crypto.CipherOutputStream;
 import javax.crypto.KeyGenerator;
  
-import java.security.spec.AlgorithmParameterSpec;
-import javax.crypto.spec.SecretKeySpec;
- 
 public class AESEncrypter
 {
 	Cipher ecipher;
